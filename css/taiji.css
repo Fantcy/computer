@@ -1,0 +1,43 @@
+/*
+* @Author: Administrator
+* @Date:   2018-03-08 20:05:42
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-03-08 22:11:03
+*/
+
+body{
+	background: yellow;
+}
+.one{
+	width: 200px;
+	height: 400px;
+	background: black;
+	border-right:200px solid white;
+	border-radius: 50%;
+	margin: 0 auto;
+	position: relative;
+	transition: 10s cubic-bezier(0.87,-0.1, 0.24, 1.54);
+}
+.two{
+	width: 60px;
+	height: 60px;
+	background: black;
+	border:70px solid white;
+	border-radius: 50%;
+	position: absolute;
+	top: 0;
+	left: 100px;
+}
+.thr{
+	width: 60px;
+	height: 60px;
+	background: white;
+	border:70px solid black;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 0;
+	left: 100px;
+}
+.one:hover{
+	transform: rotate(360000000000000000000000deg);	
+}
